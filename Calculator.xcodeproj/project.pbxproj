@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03807E051EFD78EC007F6483 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03807E041EFD78EC007F6483 /* CalculatorBrain.swift */; };
 		03A90DAB1EFCD68C0010F38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A90DAA1EFCD68C0010F38B /* AppDelegate.swift */; };
 		03A90DAD1EFCD68C0010F38B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A90DAC1EFCD68C0010F38B /* ViewController.swift */; };
 		03A90DB01EFCD68C0010F38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A90DAE1EFCD68C0010F38B /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03807E041EFD78EC007F6483 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		03A90DA71EFCD68C0010F38B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A90DAA1EFCD68C0010F38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A90DAC1EFCD68C0010F38B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,12 +79,10 @@
 		03A90DA91EFCD68C0010F38B /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				03A90DAA1EFCD68C0010F38B /* AppDelegate.swift */,
+				03A90DCA1EFCD7340010F38B /* Supporting Files */,
 				03A90DAC1EFCD68C0010F38B /* ViewController.swift */,
 				03A90DAE1EFCD68C0010F38B /* Main.storyboard */,
-				03A90DB11EFCD68C0010F38B /* Assets.xcassets */,
-				03A90DB31EFCD68C0010F38B /* LaunchScreen.storyboard */,
-				03A90DB61EFCD68C0010F38B /* Info.plist */,
+				03807E041EFD78EC007F6483 /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -94,6 +94,17 @@
 				03A90DC11EFCD68C0010F38B /* Info.plist */,
 			);
 			path = CalculatorTests;
+			sourceTree = "<group>";
+		};
+		03A90DCA1EFCD7340010F38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A90DAA1EFCD68C0010F38B /* AppDelegate.swift */,
+				03A90DB11EFCD68C0010F38B /* Assets.xcassets */,
+				03A90DB31EFCD68C0010F38B /* LaunchScreen.storyboard */,
+				03A90DB61EFCD68C0010F38B /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				TargetAttributes = {
 					03A90DA61EFCD68C0010F38B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LXP48E9H7N;
 						ProvisioningStyle = Automatic;
 					};
 					03A90DBA1EFCD68C0010F38B = {
@@ -199,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03807E051EFD78EC007F6483 /* CalculatorBrain.swift in Sources */,
 				03A90DAD1EFCD68C0010F38B /* ViewController.swift in Sources */,
 				03A90DAB1EFCD68C0010F38B /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXP48E9H7N;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcmatt.Calculator;
@@ -351,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXP48E9H7N;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcmatt.Calculator;
@@ -406,6 +421,7 @@
 				03A90DC61EFCD68C0010F38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A90DC71EFCD68C0010F38B /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +430,7 @@
 				03A90DC91EFCD68C0010F38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
